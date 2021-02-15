@@ -12,10 +12,21 @@
     <header>
         <div id="input-content">
             <label id="label-buscar" for="input-buscar">Usuário GitHub</label>
-            <input type="text" id="input-buscar" oninput="">
+            <input type="text" id="input-buscar" onchange="buscaGit(this.value)">
         </div>
     </header>
+
+    <section id="dados-perfil">
+        <img src="" id="img-git">
+        <p id="nome-git"></p>
+        <p id="seguindo-git"></p>
+        <p id="seguidores-git"></p>
+    </section>
+
+    <section id="dados-repo">
+
+    </section>
     
-    <script src=""></script>
+    <script src="main.js"></script>
 </body>
 </html>
